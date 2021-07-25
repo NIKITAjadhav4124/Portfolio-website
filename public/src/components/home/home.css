@@ -1,0 +1,35 @@
+body{
+    font-family: "Work Sans" ,sans-serif;
+    color:black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: auto;
+    background-image: url(assets/bag1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+
+}
+@media only screen and (max-width: 1024px){
+    .home{
+        width: 90%;
+    }
+
+}
+@media only screen and (max-width: 512px){
+    .home{
+        width: 100%;
+    }
+}
+
